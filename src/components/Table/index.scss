@@ -1,0 +1,30 @@
+.iksweb {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 20px;
+  cursor: pointer;
+  height: 50vh;
+  width: 100%;
+  overflow-x: scroll;
+  table-layout: fixed;
+
+  thead {
+    font-weight: 700;
+    box-shadow: 0 15px 15px 0px rgba(0, 174, 255, 0.2);
+  }
+
+  th,
+  td {
+    padding: 3px;
+    height: 80px;
+  }
+
+  .active {
+    background: rgba(0, 174, 255, 0.1);
+  }
+
+  @media (max-width: 1024px) {
+    height: 300px;
+    width: 100vw;
+  }
+}

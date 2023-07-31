@@ -1,0 +1,16 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  @media (max-width: 1024px) {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 4fr;
+  }
+}
