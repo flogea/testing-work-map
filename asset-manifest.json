@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/testing-work-map/static/css/main.a31777de.css",
+    "main.js": "/testing-work-map/static/js/main.77dd3ec3.js",
+    "index.html": "/testing-work-map/index.html",
+    "main.a31777de.css.map": "/testing-work-map/static/css/main.a31777de.css.map",
+    "main.77dd3ec3.js.map": "/testing-work-map/static/js/main.77dd3ec3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a31777de.css",
+    "static/js/main.77dd3ec3.js"
+  ]
+}
